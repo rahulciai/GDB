@@ -1,0 +1,77 @@
+university:
+  id: university_001
+  name: Horizon University
+  description: >
+    Horizon University provides undergraduate and postgraduate
+    programs across engineering, science, and business.
+
+  departments:
+    - id: dept_cs
+      name: Computer Science
+
+      head:
+        id: professor_001
+        name: Dr. Emily Carter
+        title: Professor
+
+      professors:
+        - id: professor_002
+          name: Dr. Michael Lee
+          title: Associate Professor
+          research_areas:
+            - Artificial Intelligence
+            - Machine Learning
+
+        - id: professor_003
+          name: Dr. Sarah Wilson
+          title: Assistant Professor
+          research_areas:
+            - Databases
+            - Knowledge Graphs
+
+      students:
+        - id: student_001
+          name: David Miller
+          program: Computer Science
+          skills:
+            - Python
+            - Neo4j
+            - SQL
+
+        - id: student_002
+          name: Sophia Brown
+          program: Artificial Intelligence
+          skills:
+            - Python
+            - Machine Learning
+            - PyTorch
+
+  courses:
+    - id: course_001
+      name: Graph Databases
+      credits: 4
+
+      instructor: professor_003
+
+      enrolled_students:
+        - student_001
+        - student_002
+
+      technologies:
+        - Neo4j
+        - Cypher
+        - Apache AGE
+
+    - id: course_002
+      name: Machine Learning
+      credits: 4
+
+      instructor: professor_002
+
+      enrolled_students:
+        - student_002
+
+      technologies:
+        - Python
+        - PyTorch
+        - Scikit-learn

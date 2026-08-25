@@ -1,0 +1,50 @@
+company:
+  id: company_001
+  name: Acme AI
+  description: >
+    Acme AI develops document intelligence and knowledge graph
+    solutions for enterprise customers.
+
+  departments:
+    - id: dept_001
+      name: Engineering
+
+      manager:
+        id: person_001
+        name: Alice Johnson
+        role: Engineering Manager
+
+      employees:
+        - id: person_002
+          name: Bob Smith
+          role: Backend Engineer
+          skills:
+            - Python
+            - Neo4j
+            - FastAPI
+
+        - id: person_003
+          name: Charlie Brown
+          role: ML Engineer
+          skills:
+            - Python
+            - Machine Learning
+            - Docling
+
+  projects:
+    - id: project_001
+      name: Knowledge Graph Platform
+      description: >
+        Platform that converts enterprise documents into
+        structured knowledge graphs.
+
+      owner: person_001
+
+      members:
+        - person_002
+        - person_003
+
+      technologies:
+        - Docling
+        - Neo4j
+        - Python

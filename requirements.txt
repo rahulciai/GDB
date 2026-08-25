@@ -1,0 +1,4 @@
+docling-graph
+python-dotenv
+psycopg[binary]
+neo4j
