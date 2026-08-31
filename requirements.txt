@@ -1,4 +1,7 @@
 docling-graph
+openai>=2.54,<3
+pydantic>=2,<3
+pyyaml
 python-dotenv
 psycopg[binary]
 neo4j

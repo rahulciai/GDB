@@ -1,2 +1,4 @@
 .env
+ReadPDFData/outputs/
+.ipynb_checkpoints/
 venv
